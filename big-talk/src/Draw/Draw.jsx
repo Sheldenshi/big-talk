@@ -15,9 +15,9 @@ class Draw extends Component {
     render(props) {
         return(
             <div className="buttonContainer">
-                <button className="btn" onClick={this.drawCard}>Draw Card</button>
+                <button className="btn" onClick={this.drawCard}>New Question</button>
             </div>
-        )
+        );
     }
 }
 

@@ -1,0 +1,20 @@
+.card-container {
+    cursor: pointer;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    margin: auto;
+  }
+  
+  .card {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    border: 1px solid #300;
+  }
+
+  .question{
+    color: #333;
+    font-size: 2.3em;
+    padding-top: 40%;
+  }
