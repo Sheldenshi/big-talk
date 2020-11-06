@@ -20,7 +20,7 @@ class App extends Component {
             currentCard: {}
         }
     }
-    componentWillMount() {
+    componentDidMount() {
         const currentCards = this.state.cards;
 
         this.database.on('child_added', snap => {
